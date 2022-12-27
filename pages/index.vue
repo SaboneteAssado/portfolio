@@ -1,0 +1,19 @@
+<template>
+  <div>
+    <script src="https://files.coinmarketcap.com/static/widget/coinMarquee.js" type="text/javascript"></script>
+    <div id="coinmarketcap-widget-marquee"
+         coins="1,1027,1839,3890,1975,6636,5426,7278,6535"
+         currency="EUR"
+         show-symbol-logo="true"
+         theme="light"
+         transparent="false"
+    />
+
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'IndexPage'
+}
+</script>
