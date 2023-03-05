@@ -1,8 +1,4 @@
 export default {
-  target: "static",
-  router: {
-    base: "/portfolio/",
-  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "githubpage",
@@ -16,6 +12,15 @@ export default {
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    script: [
+      {
+        src: "https://files.coinmarketcap.com/static/widget/coinMarquee.js",
+      },
+      {
+        src: "https://kit.fontawesome.com/d92bbec99a.js",
+        crossorigin: "anonymous",
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
